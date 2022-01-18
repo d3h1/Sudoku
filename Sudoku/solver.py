@@ -33,6 +33,7 @@ def valid(bo, pos, num):
     """
 
     # Check row
+    
     for i in range(0, len(bo)):
         if bo[pos[0]][i] == num and pos[1] != i:
             return False
