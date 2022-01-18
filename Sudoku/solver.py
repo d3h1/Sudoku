@@ -32,6 +32,7 @@ def valid(bo, pos, num):
     :return: bool
     """
 
+    
     # Check row
     
     for i in range(0, len(bo)):
