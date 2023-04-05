@@ -3,7 +3,7 @@ import pygame
 import time
 pygame.font.init()
 
-
+# This will be our 2D array
 class Grid:
     board = [
         [7, 8, 0, 4, 0, 0, 1, 2, 0],
@@ -17,6 +17,7 @@ class Grid:
         [0, 4, 9, 2, 0, 6, 0, 0, 7]
     ]
 
+    # We are checking each part of the board
     def __init__(self, rows, cols, width, height, win):
         self.rows = rows
         self.cols = cols
@@ -150,7 +151,7 @@ class Grid:
 
         return False
 
-
+# Similar to valid sudoku on leetcode
 class Cube:
     rows = 9
     cols = 9
