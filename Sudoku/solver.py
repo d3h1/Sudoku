@@ -11,6 +11,7 @@ def solve(bo):
     else:
         return True
 
+    # for loop will check if number are valid in the 2D array
     for i in range(1, 10):
         if valid(bo, (row, col), i):
             bo[row][col] = i
@@ -71,7 +72,7 @@ def find_empty(bo):
 
     return None
 
-
+# This will print our board and use pygame in the GUI
 def print_board(bo):
     """
     prints the board
