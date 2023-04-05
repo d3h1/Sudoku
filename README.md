@@ -10,5 +10,6 @@ The rules are simple, play a game of Sudoku.
   - Then press enter when you think you are correct (you have infinite lives but it will tell you when you are wrong)
   - Lastly, if you cannot figure it out, press SPACE and see the computer solve it
   
-
+### HOW
+This program uses backtracking in python. Takes 2D list of nums in an array and solves it 
 
